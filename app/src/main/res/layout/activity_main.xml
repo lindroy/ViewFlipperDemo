@@ -10,10 +10,10 @@
         android:id="@+id/viewFlipper"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:autoStart="true"
-        android:flipInterval="3000"
-        android:inAnimation="@anim/left_in"
-        android:outAnimation="@anim/right_out">
+        android:autoStart="false"
+        android:flipInterval="3000">
+        <!--android:inAnimation="@anim/left_in"-->
+        <!--android:outAnimation="@anim/right_out"-->
 
         <include layout="@layout/item_view1" />
 
