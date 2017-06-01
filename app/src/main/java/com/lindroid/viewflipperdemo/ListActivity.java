@@ -21,7 +21,10 @@ public class ListActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 仿淘宝头条跑马灯式新闻标题
+     */
     public void marqueeClick(View view) {
-
+        startActivity(new Intent(this, MarqueeNewsActivity.class));
     }
 }

@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
     tools:context="com.lindroid.viewflipperdemo.MarqueeNewsActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="@string/title" />
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent" />
+
+    <ViewFlipper
+        android:layout_marginLeft="10dp"
+        android:id="@+id/viewFlipper"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+    </ViewFlipper>
+
+</LinearLayout>
