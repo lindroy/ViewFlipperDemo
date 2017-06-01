@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ViewFlipperDemo</string>
+    <string name="title">最新\n消息</string>
 </resources>

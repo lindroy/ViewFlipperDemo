@@ -15,10 +15,13 @@ public class ListActivity extends AppCompatActivity {
 
     /**
      * Android之ViewFlipper的简单使用
-     *
-     * @param view
      */
     public void normalClick(View view) {
         startActivity(new Intent(this, MainActivity.class));
+    }
+
+
+    public void marqueeClick(View view) {
+
     }
 }
